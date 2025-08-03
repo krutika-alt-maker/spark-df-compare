@@ -17,16 +17,16 @@ This utility provides a structured way to compare two PySpark DataFrames and ide
 ---
 
 ## Installation
-Ensure you have PySpark installed in your environment:
+Ensure you have PySpark installed in your environment. For that, use the pyproject.toml file to install the dependencies.
 ```bash
-pip install pyspark
+poetry install
 ```
 
 ---
 
 ## Usage
 ```python
-from pyspark_diff_tool.comparison import compare_dataframes  # Assuming the file is named compare_module.py
+from pyspark_diff_tool.comparison import compare_dataframes  
 
 # df_1 and df_2 are two PySpark DataFrames to compare
 key = "id"  # Common unique key column
