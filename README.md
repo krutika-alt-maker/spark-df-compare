@@ -26,7 +26,7 @@ pip install pyspark
 
 ## Usage
 ```python
-from compare_module import compare_dataframes  # Assuming the file is named compare_module.py
+from pyspark_diff_tool.comparison import compare_dataframes  # Assuming the file is named compare_module.py
 
 # df_1 and df_2 are two PySpark DataFrames to compare
 key = "id"  # Common unique key column
