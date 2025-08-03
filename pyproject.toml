@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "spark_comparison"
+version = "0.1.0"
+description = "Custom library for Spark Comparison"
+authors = ["Krutika Sanas<Krutikasanas993@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyspark = "^3.4.1"
+pandas = "^2.0.0"
+pyarrow = "^14.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
